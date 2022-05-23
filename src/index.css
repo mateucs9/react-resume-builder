@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+}
+
+#resume{
+	font-size: 90%;
+	max-width: 900px;
+}
+
+form {
+    max-width: 375px;
+    min-width: 375px;
+}
+
+form input {
+    max-width: 200px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.rotate {
+    transition: all 1s linear;
+}
+
+.rotate.down {
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+p {
+    text-align: justify !important;
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+    @page {
+        margin: 0;
+    }
+
+	hr {
+		display: block;
+		height: 1px;
+		background: transparent;
+		width: 100%;
+		border: none;
+		border-top: solid 1px #aaa;
+	}
+}
+
+#print-btn {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-top: solid 1px #aaa;
+}

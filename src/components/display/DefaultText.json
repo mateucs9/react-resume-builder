@@ -1,0 +1,79 @@
+{
+	"name": "John Smith",
+	"profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce non bibendum dolor. Suspendisse a neque nisl. Cras cursus lorem non semper pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis lobortis nisi eget convallis. Praesent ullamcorper dapibus sem, id sodales nisl dapibus quis.Morbi est erat, iaculis aliquet blandit eget, aliquam nec enim. Nunc tincidunt, tortor id hendrerit laoreet, massa augue viverra ex, sit amet tristique nisi odio nec lacus.",
+	"image": "./emptyProfile.jpg",
+	"profession": "Accountant",
+	"phone": "+34 666 666 666",
+	"email": "john_smith@gmail.com",
+	"linkedin": "www.linkedin.com/john-smith",
+	"skills": [
+		{
+			"software": [
+				{
+					"item": "MS Excel",
+					"level": "Profiency level"
+				},
+				{
+					"item": "MS Outlook",
+					"level": "User level"
+				},
+				{
+					"item": "Power BI",
+					"level": "Advanced level"
+				}
+			],
+			"language": [
+				{
+					"item": "English",
+					"level": "Native"
+				},
+				{
+					"item": "Spanish",
+					"level": "Intermediate(B2)"
+				},
+				{
+					"item": "French",
+					"level": "Beginner(A2)"
+				}
+			]
+		}
+	],
+	"experience": [
+		{
+			"company": "Apple Inc.",
+			"position": "Controller",
+			"from": "2018-01-20",
+			"to": "2022-05-11",
+			"tasks": [
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"Fusce non bibendum dolor. Suspendisse a neque nisl. ",
+				"Cras cursus lorem non semper pellentesque."
+			]
+		},
+		{
+			"company": "Microsoft",
+			"position": "Accountant",
+			"from": "2001-01-01",
+			"to": "2020-12-31",
+			"tasks": [
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+				"Fusce non bibendum dolor. Suspendisse a neque nisl. ",
+				"Cras cursus lorem non semper pellentesque."
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Harvard Business School",
+			"certification": "Master of Business Administration (M.B.A.)",
+			"from": "1999-09-01",
+			"to": "2000-06-30"
+		},
+		{
+			"institution": "London School of Business",
+			"certification": "Accounting and Business (B.A.)",
+			"from": "1996-09-01",
+			"to": "1999-06-30"
+		}
+	]
+}
